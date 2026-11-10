@@ -5,6 +5,17 @@
 
 ---
 
+## 🏆 最新置頂：1:1 `@mrcreates.ai` 風格 60fps 順滑動態「AI 複利式增長」新樣板 (`/pstack` 驗收)
+
+* 🎬 **[主力首選：1:1 `@mrcreates.ai` 風格 60fps MP4 (`herman_studio_v3_pure` 零氣音純淨聲紋 + 近咪溫暖 EQ)](https://oghermanw.github.io/minimax-Voice-herman-/videos/13_MRCREATES_STYLE_60fps_Compounding_v3_pure.mp4)**
+* 🎬 **[對照版本：1:1 `@mrcreates.ai` 風格 60fps MP4 (`herman_studio_v4` 自然呼吸停頓聲紋 + 近咪溫暖 EQ)](https://oghermanw.github.io/minimax-Voice-herman-/videos/14_MRCREATES_STYLE_60fps_Compounding_v4_studio.mp4)**
+* 🖼️ **[@mrcreates.ai 風格 6 幕分鏡與角色一致性驗證長圖 (13_MRCREATES_STYLE_6_beats_sheet.jpg)](https://oghermanw.github.io/minimax-Voice-herman-/posters/13_MRCREATES_STYLE_6_beats_sheet.jpg)**
+* 🎬 **[附贈暗黑曲線版 60fps MP4 (11_NEW_SAMPLE_60fps_Compounding_v3_pure.mp4)](https://oghermanw.github.io/minimax-Voice-herman-/videos/11_NEW_SAMPLE_60fps_Compounding_v3_pure.mp4)**
+* ⚖️ **[/pstack MECE 三模型原汁原味直出看板 (4_mece_board.html)](https://oghermanw.github.io/minimax-Voice-herman-/4_mece_board.html)** | **[Markdown 報告 (4_mece_report.md)](https://github.com/oghermanw/minimax-Voice-herman-/blob/main/4_mece_report.md)**
+
+---
+
+
 ## 🔑 MiniMax 聲紋 ID 與 File ID 清單
 
 | 項目 | 識別碼 (ID) | 說明 |

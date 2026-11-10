@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="zh-HK">
+<head>
+  <meta charset="UTF-8" />
+  <title>PStack MECE 獨立思考對決看板</title>
+  <style>
+    body { background:#0b0d13; color:#f3f4f6; font-family:-apple-system,BlinkMacSystemFont,"PingFang HK",sans-serif; padding:24px; line-height:1.6; }
+    .hdr { background:#131722; border:1px solid #262b3d; border-radius:12px; padding:16px 20px; margin-bottom:20px; }
+    .hdr h1 { font-size:20px; margin:0 0 8px 0; }
+    .meta { font-size:12px; color:#9ca3af; font-family:monospace; }
+    .prompt-box { background:#11131a; border:1px solid #2e3446; border-radius:10px; padding:12px 16px; margin-bottom:20px; white-space:pre-wrap; font-size:13px; color:#fde68a; }
+    .grid { display:grid; grid-template-columns:repeat(3, 1fr); gap:16px; }
+    .col { background:#131722; border:1px solid #262b3d; border-radius:12px; padding:16px; display:flex; flex-direction:column; }
+    .col h2 { font-size:16px; margin:0 0 8px 0; padding-bottom:8px; border-bottom:1px solid #262b3d; }
+    .claude h2 { color:#f59e0b; }
+    .codex h2 { color:#10b981; }
+    .gemini h2 { color:#60a5fa; }
+    pre { white-space:pre-wrap; word-break:break-word; font-family:inherit; font-size:13.5px; margin:0; flex:1; }
+  </style>
+</head>
+<body>
+  <div class="hdr">
+    <h1>🛡️ PStack MECE 物理隔離對決看板 (Mutually Exclusive, Collectively Exhaustive)</h1>
+    <div class="meta">Run Dir: /private/tmp/pstack_runs/run_compounding_sample/run_20261110_143228 | Prompt SHA-256: 8d83d82e6d9f746368bd9c685712bb8b5038013645b9482be5695fa5117a6c60</div>
+  </div>
+  <div class="prompt-box"><strong>📥 0_input/raw_prompt.txt (一字不改直通三個模型)：</strong>
+mrcreates.ai  都係麻麻地，我覺得我啲聲嗰啲個 outcome 好似都係一般。然後 anyway 咁呀，做咗一個新嘅樣板先啦，我覺得做呢一個樣板係最好、幾好嘅。
+
+咁點解呢？你而家試下講一個，我可能講 AI 点樣幫到自己：可以好快，由短時間可能要 learning curve，然之後慢慢喺中間就可以好快學習到一啲新嘅嘢，之後你就可以 scale up 得好快，個複利式增長。
+
+再講一次，用我把聲。畫面要配合返 motion 啊、smoothly 啊嗰啲細節，一致性 /pstack 
+</div>
+  <div class="grid">
+    <div class="col claude">
+      <h2>🅰️ 1_claude (Claude CLI 60.41s)</h2>
+      <pre>我寫好咗呢條片嘅樣板，入面有劇本、分鏡同一致性規則，下面三部分可以直接用。不過呢個 session 冇 shell，亦冇寫檔權限，所以我未叫到 ElevenLabs 出你把聲，亦未 render 到片。`/pstack` 喺呢度都冇呢個指令，所以冇行到。
+
+---
+
+## 1. 劇本（約 32 秒）
+
+**中心意象：** 成條片由頭到尾都係同一條線，由平線慢慢彎上去變成複利曲線。每一幕都喺呢條線度接落去，咁樣個畫面先會順同一致。
+
+| 時間 | 口播（你把聲） | 畫面 / Motion |
+|---|---|---|
+| **0–3s 開頭吸引** | 「點解有啲人用咗 AI 一年，好似進步咗十年？」 | 黑底，一粒發光嘅點喺正中間，「十年」兩個字一講，粒點就向右拉出一條線 |
+| **3–8s 學習曲線** | 「頭嗰一兩個禮拜，係會有 learning curve 嘅。你會覺得好亂、好慢，好似冇乜進步。」 | 條線幾乎係平嘅，仲會震吓。鏡頭跟住粒點慢慢推前，用暗啲嘅灰色 |
+| **8–15s 轉捩點** | 「但係過咗嗰個位，你會發現，每學一樣新嘢都快咗好多。今日學剪片，聽日學寫 code，後日學 marketing。」 | 講到「過咗嗰個位」，條線開始彎上，顏色轉做 accent 色。每講一樣技能，條線上面就彈出一個 icon |
+| **15–23s 複利** | 「最勁嘅唔係你學得快，係你學識嘅嘢會疊埋一齊。一個變兩個，兩個變四個，呢個就係複利。」 | 個 icon 一路分裂：1→2→4→8，跟住你講嘅數字一齊出。條線變成好斜嘅 J 曲線，鏡頭拉遠睇晒成條 |
+| **23–28s 行動** | 「所以唔使諗太多，揀一樣你想學嘅嘢，今日就開始。」 | 畫面跳返去曲線最起點嗰粒點，即係「你而家喺呢度」 |
+| **28–32s CTA** | 「留言【複利】，我將我自己用緊嘅 AI 學習流程 send 俾你。」 | 「複利」兩個字由條曲線收埋變出嚟，固定喺畫面中間 |
+
+## 2. 一致性規則（以後每條片都照用）
+
+- **色：** 只用深色底、一隻 accent 色（例如電光綠），再加灰色做「未進步」狀態，唔加第四隻色。
+- **字：** 成條片只用一隻字體，字幕固定喺畫面下面三分一，唔好跳嚟跳去。
+- **Motion：** 全部用 ease-in-out，轉場 0.3 至 0.4 秒。所有嘢都沿住條線、向右或者向上郁，唔好有隨機嘅飛入。
+- **鏡頭：** 一路向前推，只係喺「複利」嗰下拉遠一次，做成全片嘅高潮。
+- **跟住把聲：** 關鍵字（十年、過咗嗰個位、一變二、今日）一講出嚟，畫面就要同時郁。呢樣係最影響順唔順嘅細節。
+
+## 3. 點解你把聲出嚟效果一般，同點樣改
+
+- **最好效果：** 你自己用手機錄口播，揀靜嘅房、手機放近口大約一個拳頭遠。真聲配 AI 畫面通常比 AI 聲更自然。
+- **如果一定要用 AI 聲：** 用 ElevenLabs 嘅 **Professional Voice Clone**，餵 30 分鐘以上乾淨、冇背景音樂嘅錄音，口語同中英夾雜要同你平時講嘢一樣。Instant clone 本身就會比較「一般」。
+- **設定建議：** Stability 大約 0.4 至 0.5，Style 調低啲，咁先唔會太誇張。
+
+## 樣板骨架（以後換題目照填）
+**開頭吸引 (0–3s) → 痛點 (3–8s) → 轉捩點 (8–15s) → 原理或證據 (15–23s) → 行動 (23–28s) → CTA (28–32s)**
+
+---
+
+**下一步：** 我建議用 Remotion（用 code 做動畫）嚟整，咁每條片嘅 motion 都會一模一樣，比 mrcreates 嗰類工具穩定好多。如果你喺有 shell 嘅 session 再叫我，我可以：
+1. 開 Remotion 項目，將上面嘅分鏡寫成 component，以後換文字就出到新片
+2. 寫 `.infisical.json` 同 `run.sh`。用 `/lib/elevenlabs` 出聲，要你確認先加
+3. 出 9:16 MP4 樣板
+
+你想用自己錄音，定係用 ElevenLabs clone 聲？
+</pre>
+    </div>
+    <div class="col codex">
+      <h2>🅱️ 2_codex (OpenAI Codex CLI 24.85s)</h2>
+      <pre>未能開工：你指定嘅 `/pstack` 並未安裝／未提供，而工作區目前亦係唯讀。按你嘅指示，我冇改用其他技能。
+
+我已搵到 Herman 聲音參考，例如 [herman_VO_1_personal_intro.mp4](&lt;/Users/herman/Google AI/instagram apify scaping /mvp_cantonese_demos/native_mece_5_methods/herman_VO_1_personal_intro.mp4&gt;)。請啟用 PStack 並開放寫入權限，再重發同一要求；我就會製作新樣板，重點係自然廣東話聲線、learning curve → 快速掌握 → scale up → 複利增長，以及全片 motion、節奏與視覺一致性。</pre>
+    </div>
+    <div class="col gemini">
+      <h2>🆎 3_gemini (Gemini / Antigravity)</h2>
+      <pre>(Pending independent Gemini entry)</pre>
+    </div>
+  </div>
+</body>
+</html>
